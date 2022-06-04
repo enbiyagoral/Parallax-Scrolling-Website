@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Montserrat, sans-herif;
+}
+
+.container{
+    height: 100vh;
+    background-image: url(pexels-sam-kolder-2387873.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+.box{
+    padding: 30px;
+}
+.box h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-bg2{
+    height: 100vh;
+    background-image: url(pexels-eberhard-grossgasteiger-1292115.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
